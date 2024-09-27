@@ -1,0 +1,86 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:10px;
+}
+
+.navbar{
+    background-color:rgb(166, 158, 144);
+}
+
+div > a{
+    color:rgb(109, 89, 74);
+    text-decoration:none;
+    font-size: 20px;
+    margin-left:20px;
+}
+
+div > a:hover{
+    text-decoration:underline;
+}
+
+.item-1{
+    
+}
+
+.item-1{
+
+}
+.item-1{
+    
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}
+.item-1{
+
+}

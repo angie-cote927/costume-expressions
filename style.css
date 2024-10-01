@@ -1,16 +1,20 @@
 .container{
     display:grid;
-    grid-template-columns: auto;
-    grid-template-rows: 65px 76px 176px 380px 150px 150px;
-    gap:10px;
-    width: 1250px;
-    margin: 10px;
-    border: 3px solid grey;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+     grid-template-rows: 65px 76px 176px 380px 250px 150px 150px; 
+    grid-template-areas: "img1 img1 img1 img1 img2" "img1 img1 img1 img1 img3" "img1 img1 img1 img1 img4" "img5 img5 img6 img7 img8" "img9 img10 img10 img11 img12" "img9 img14 img15 img15 img16" "img13 img14 img17 img18 img19" "img20 img21 img21 . .";
+    width: 1300px;
+    margin: auto;
+    border: 10px solid grey;
+    gap: 10px;
+    padding: 10px;
 }
 
 .navbar{
     background-color:rgb(166, 158, 144);
-    width: 1250px;
+    width: 1320px;
+    border: grey 10px solid;
+    margin: auto
 }
 
 div > a{
@@ -25,89 +29,85 @@ div > a:hover{
 }
 
 .item-1{
-    grid-column: 1/4;
-    grid-row: 1/4;
+    grid-area: img1 ;
+    
 }
 
 .item-2{
-    grid-column: 5/5;
-    grid-row: 1/1;
+    grid-area: img2 ;
+    
 }
 .item-3{
-    grid-column: 5/5;
-    grid-row: 2/2;
+    grid-area: img3 ;
+    
 }
 .item-4{
-    grid-column: 5/5;
-    grid-row: 3/3;
+    grid-area: img4 ;
+    
 }
 .item-5{
-    grid-column: 1/2;
-    grid-row: 4/4;
+    grid-area: img5 ;
+    
 }
 .item-6{
-    grid-column: 2/2;
-    grid-row: 4/4;
+    grid-area: img6 ;
+    
 }
 .item-7{
-    grid-column: 3/3;
-    grid-row: 4/4;
+    grid-area: img7 ;
+    
 }
 .item-8{
-    grid-column: 4/4;
-    grid-row: 4/4;
+    grid-area: img8 ;
+    
 }
 .item-9{
-    grid-column: 5/5;
-    grid-row: 4/4;
+    grid-area: img9 ;
+    
 }
 .item-10{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img10 ;
+    
 }
 .item-11{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img11 ;
+    
 }
 .item-12{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img12 ;
+    
 }
 .item-13{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img13 ;
+    
+    margin-top: auto;
 }
 .item-14{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img14 ;
+    
 }
 .item-15{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img15 ;
+    
 }
 .item-16{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img16 ;
+    
 }
 .item-17{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img17 ;
 }
 .item-18{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img18 ;
 }
 .item-19{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img19 ;
 }
 .item-20{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img20 ;
 }
 .item-21{
-    grid-column: ;
-    grid-row: ;
+    grid-area: img21 ;
 }
 
 .imageSize{
